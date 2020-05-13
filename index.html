@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Mega Media</title>
+		<link rel="stylesheet" href="lib\bootstrap\dist\css\bootstrap.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<div class="container-fluid">
+			<div class="row" >
+				<div class="col">
+				  <h1>Media Media</h1>
+				</div>
+			</div>
+			<div class="row" >
+
+				<div class="col" >
+					<div class="postcontainer">
+						<div class="card rounded invisible" id="post" 
+							style="background-color: #fff; width: 30rem; margin: auto; pointer-events: auto;">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-sm-9">															
+										<div class="media">
+											<img class="mr-3 rounded-circle" src="images/profilepic.jpg" alt="profile pic">
+											<div class="media-body">
+												<h5 class="my-0 font-weight-bold">LlamaTemplar</h5>
+												<h5><small class="text-muted">@llamatemplar</small></h5>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<button type="button" id="closePost" class="btn btn-outline-primary mt-0">X</button>
+									</div>									
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-text" id="tweet">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>				
+
+					<canvas class="rounded mx-auto" ></canvas>
+					
+				</div>
+			</div>
+		</div>
+         
+
+		<script src="lib\jquery\dist\jquery.js"></script>
+		<script src="lib\bootstrap\dist\js\bootstrap.js"></script>
+        <script src="js/three.js"></script>
+        <script src="js/Clock.js"></script>
+        <script src="js/GLTFLoader.js"></script>
+		<script src="js/FlyControls.js"></script>
+		<script src="data/timeline.js"></script>
+		<script src="js/mainscene.js"></script>
+	</body>
+</html>

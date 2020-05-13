@@ -1,0 +1,25 @@
+#webgl-output
+{ 
+    display: inline-block;
+}
+
+canvas 
+{ 
+    display: block;
+    width: 90%;
+}
+
+#tweet
+{
+    font-size: 24px;
+}
+
+.postcontainer 
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 20%;
+    height: 12rem;
+    pointer-events: none;
+}
