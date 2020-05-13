@@ -66,7 +66,7 @@ function createMaterials()
 function loadModels()
 {
     var loader = new THREE.GLTFLoader();
-        loader.load( '../models/matrixBounds.glb', function ( gltf ) {
+        loader.load( 'models/matrixBounds.glb', function ( gltf ) {
             var obj = gltf.scene; //080808
             var material = new THREE.MeshBasicMaterial({color: 0x636363});
             var mesh = new THREE.Mesh(obj.children[0].geometry, material);
